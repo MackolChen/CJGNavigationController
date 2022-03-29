@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00912794F9B2577BAB91B4FEA27BC24A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D82CF9372FCF51F805F33704CFE2D12 /* ReplaceMe.m */; };
 		334FEE5E900875A5717E036C2C44CB11 /* CJGNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE0DE8D88F2C0A815F717B21AF487E0 /* CJGNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		510106AFC2860DAF38EF4AF74B441921 /* Pods-CJGNavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1084672C9C72ABB5F3B391A117EE1356 /* Pods-CJGNavigationController_Tests-dummy.m */; };
+		52EED5CC27F2FA6C00B36E43 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 52EED5C227F2FA6C00B36E43 /* .gitkeep */; };
+		52EED5CD27F2FA6C00B36E43 /* CJGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EED5C427F2FA6C00B36E43 /* CJGNavigationController.m */; };
+		52EED5CE27F2FA6C00B36E43 /* CJGNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EED5C527F2FA6C00B36E43 /* CJGNavigationBar.h */; };
+		52EED5D027F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EED5C727F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.h */; };
+		52EED5D127F2FA6C00B36E43 /* CJGNavigationControllerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EED5C827F2FA6C00B36E43 /* CJGNavigationControllerHeader.h */; };
+		52EED5D227F2FA6C00B36E43 /* CJGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EED5C927F2FA6C00B36E43 /* CJGNavigationController.h */; };
+		52EED5D327F2FA6C00B36E43 /* CJGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EED5CA27F2FA6C00B36E43 /* CJGNavigationBar.m */; };
+		52EED5D427F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EED5CB27F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.m */; };
 		598337EF5727CAC7617C25E9062BBFA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		66A680C9466C509278879081A27047D6 /* Pods-CJGNavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B0FA6D0A257BA50D9916127C7260DA /* Pods-CJGNavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B0B5ADDE507D924A40343399D1D28DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,17 +48,24 @@
 		1084672C9C72ABB5F3B391A117EE1356 /* Pods-CJGNavigationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJGNavigationController_Tests-dummy.m"; sourceTree = "<group>"; };
 		16C54D8009E62BB4D410A00BFA91563C /* CJGNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJGNavigationController-prefix.pch"; sourceTree = "<group>"; };
 		23E599FF72BB4D0B6ACE69BBE67AF2E0 /* Pods-CJGNavigationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGNavigationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D82CF9372FCF51F805F33704CFE2D12 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CJGNavigationController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		319CAC550DE33012A343C88CAF5A22AB /* CJGNavigationController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CJGNavigationController.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		353048AF3973B056792D406E9F32E8DA /* Pods-CJGNavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJGNavigationController_Example.modulemap"; sourceTree = "<group>"; };
 		38E75899851D3B057EF847311E6EC5E1 /* Pods-CJGNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		44B0FA6D0A257BA50D9916127C7260DA /* Pods-CJGNavigationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJGNavigationController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		52EED5C227F2FA6C00B36E43 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		52EED5C427F2FA6C00B36E43 /* CJGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGNavigationController.m; sourceTree = "<group>"; };
+		52EED5C527F2FA6C00B36E43 /* CJGNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGNavigationBar.h; sourceTree = "<group>"; };
+		52EED5C727F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CJGNavigationBar.h"; sourceTree = "<group>"; };
+		52EED5C827F2FA6C00B36E43 /* CJGNavigationControllerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGNavigationControllerHeader.h; sourceTree = "<group>"; };
+		52EED5C927F2FA6C00B36E43 /* CJGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGNavigationController.h; sourceTree = "<group>"; };
+		52EED5CA27F2FA6C00B36E43 /* CJGNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGNavigationBar.m; sourceTree = "<group>"; };
+		52EED5CB27F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CJGNavigationBar.m"; sourceTree = "<group>"; };
 		5B3969E45646F26FC3F1A79B6A64CC13 /* Pods-CJGNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		682224B8F187B2B4FE6543B848225AB7 /* Pods-CJGNavigationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGNavigationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B327252FA701F0A89CD08BEC08ED7EB /* Pods-CJGNavigationController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGNavigationController_Example-Info.plist"; sourceTree = "<group>"; };
 		706C2658D396F3BDEA05B0DF15B33F20 /* CJGNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJGNavigationController-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		83306CB74AA6729FE559B68B4ACF7ED2 /* Pods-CJGNavigationController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CJGNavigationController_Example"; path = Pods_CJGNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83306CB74AA6729FE559B68B4ACF7ED2 /* Pods_CJGNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJGNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C72773A074D120DD7054A737351367 /* CJGNavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CJGNavigationController-Info.plist"; sourceTree = "<group>"; };
 		8D8FAD2CEA805C94B6CDE545937049E9 /* Pods-CJGNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		91F4A370F1892206A7CB24F3884EE635 /* Pods-CJGNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,8 +74,8 @@
 		9EE9502E43484A566F39BE0FD3E2029D /* Pods-CJGNavigationController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJGNavigationController_Tests-Info.plist"; sourceTree = "<group>"; };
 		AD1AA149DE5E0CD16F4548A21F6286DE /* CJGNavigationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGNavigationController.release.xcconfig; sourceTree = "<group>"; };
 		B168A8A8C21563CAAFC4A15961EB1A0A /* Pods-CJGNavigationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJGNavigationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B199F0AC0FE98513BD40841C3ED347C6 /* CJGNavigationController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CJGNavigationController; path = CJGNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2D5922A90727B482B67A948DBCE8519 /* Pods-CJGNavigationController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CJGNavigationController_Tests"; path = Pods_CJGNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B199F0AC0FE98513BD40841C3ED347C6 /* CJGNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJGNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D5922A90727B482B67A948DBCE8519 /* Pods_CJGNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJGNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBC293DF184F9F7462277B24ECB81D5 /* CJGNavigationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJGNavigationController.debug.xcconfig; sourceTree = "<group>"; };
 		DCE0C4FB65BB75C8BD056848A4D45A07 /* Pods-CJGNavigationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJGNavigationController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DEE0DE8D88F2C0A815F717B21AF487E0 /* CJGNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJGNavigationController-umbrella.h"; sourceTree = "<group>"; };
@@ -112,11 +126,35 @@
 		34F97C1E1A62C679529392F8222BF4C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B199F0AC0FE98513BD40841C3ED347C6 /* CJGNavigationController */,
-				83306CB74AA6729FE559B68B4ACF7ED2 /* Pods-CJGNavigationController_Example */,
-				B2D5922A90727B482B67A948DBCE8519 /* Pods-CJGNavigationController_Tests */,
+				B199F0AC0FE98513BD40841C3ED347C6 /* CJGNavigationController.framework */,
+				83306CB74AA6729FE559B68B4ACF7ED2 /* Pods_CJGNavigationController_Example.framework */,
+				B2D5922A90727B482B67A948DBCE8519 /* Pods_CJGNavigationController_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		52EED5C127F2FA6C00B36E43 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				52EED5C227F2FA6C00B36E43 /* .gitkeep */,
+			);
+			name = Assets;
+			path = CJGNavigationController/Assets;
+			sourceTree = "<group>";
+		};
+		52EED5C327F2FA6C00B36E43 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52EED5C427F2FA6C00B36E43 /* CJGNavigationController.m */,
+				52EED5C527F2FA6C00B36E43 /* CJGNavigationBar.h */,
+				52EED5C727F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.h */,
+				52EED5C827F2FA6C00B36E43 /* CJGNavigationControllerHeader.h */,
+				52EED5C927F2FA6C00B36E43 /* CJGNavigationController.h */,
+				52EED5CA27F2FA6C00B36E43 /* CJGNavigationBar.m */,
+				52EED5CB27F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.m */,
+			);
+			name = Classes;
+			path = CJGNavigationController/Classes;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -147,7 +185,8 @@
 		6BB470DAAFE6B573563D558674BFFA7A /* CJGNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				2D82CF9372FCF51F805F33704CFE2D12 /* ReplaceMe.m */,
+				52EED5C127F2FA6C00B36E43 /* Assets */,
+				52EED5C327F2FA6C00B36E43 /* Classes */,
 				9F4F9658720252EAEC82E1CD6C675621 /* Pod */,
 				6C9335419F68647300151D4D947FF1B3 /* Support Files */,
 			);
@@ -231,6 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				334FEE5E900875A5717E036C2C44CB11 /* CJGNavigationController-umbrella.h in Headers */,
+				52EED5CE27F2FA6C00B36E43 /* CJGNavigationBar.h in Headers */,
+				52EED5D127F2FA6C00B36E43 /* CJGNavigationControllerHeader.h in Headers */,
+				52EED5D027F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.h in Headers */,
+				52EED5D227F2FA6C00B36E43 /* CJGNavigationController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +312,7 @@
 			);
 			name = "Pods-CJGNavigationController_Tests";
 			productName = Pods_CJGNavigationController_Tests;
-			productReference = B2D5922A90727B482B67A948DBCE8519 /* Pods-CJGNavigationController_Tests */;
+			productReference = B2D5922A90727B482B67A948DBCE8519 /* Pods_CJGNavigationController_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A0AAE53F496FD4B1158417E0EB09916E /* Pods-CJGNavigationController_Example */ = {
@@ -288,7 +331,7 @@
 			);
 			name = "Pods-CJGNavigationController_Example";
 			productName = Pods_CJGNavigationController_Example;
-			productReference = 83306CB74AA6729FE559B68B4ACF7ED2 /* Pods-CJGNavigationController_Example */;
+			productReference = 83306CB74AA6729FE559B68B4ACF7ED2 /* Pods_CJGNavigationController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A36F7C5CE3AD646B0F79D72E5D5E746F /* CJGNavigationController */ = {
@@ -306,7 +349,7 @@
 			);
 			name = CJGNavigationController;
 			productName = CJGNavigationController;
-			productReference = B199F0AC0FE98513BD40841C3ED347C6 /* CJGNavigationController */;
+			productReference = B199F0AC0FE98513BD40841C3ED347C6 /* CJGNavigationController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +359,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1330;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,6 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EED5CC27F2FA6C00B36E43 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +411,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52EED5CD27F2FA6C00B36E43 /* CJGNavigationController.m in Sources */,
 				C9C5D1417F31F161FA36C86381BD6F83 /* CJGNavigationController-dummy.m in Sources */,
-				00912794F9B2577BAB91B4FEA27BC24A /* ReplaceMe.m in Sources */,
+				52EED5D327F2FA6C00B36E43 /* CJGNavigationBar.m in Sources */,
+				52EED5D427F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +467,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CJGNavigationController_Tests/Pods-CJGNavigationController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CJGNavigationController_Tests/Pods-CJGNavigationController_Tests.modulemap";
@@ -492,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -520,7 +566,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CJGNavigationController_Tests/Pods-CJGNavigationController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CJGNavigationController_Tests/Pods-CJGNavigationController_Tests.modulemap";
@@ -552,7 +598,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CJGNavigationController/CJGNavigationController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CJGNavigationController/CJGNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CJGNavigationController/CJGNavigationController.modulemap";
 				PRODUCT_MODULE_NAME = CJGNavigationController;
@@ -583,7 +629,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CJGNavigationController_Example/Pods-CJGNavigationController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CJGNavigationController_Example/Pods-CJGNavigationController_Example.modulemap";
@@ -650,7 +696,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -676,7 +722,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CJGNavigationController/CJGNavigationController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CJGNavigationController/CJGNavigationController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CJGNavigationController/CJGNavigationController.modulemap";
 				PRODUCT_MODULE_NAME = CJGNavigationController;
@@ -706,7 +752,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CJGNavigationController_Example/Pods-CJGNavigationController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CJGNavigationController_Example/Pods-CJGNavigationController_Example.modulemap";
