@@ -1,0 +1,16 @@
+PODS:
+  - CJGNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - CJGNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  CJGNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJGNavigationController: ca008bee876f5d47295e0b45e63ed3fcffcfbaac
+
+PODFILE CHECKSUM: b8c69b9dcd61c8d207501b76539b418d7c6bb549
+
+COCOAPODS: 1.11.3

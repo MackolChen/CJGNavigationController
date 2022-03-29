@@ -1,0 +1,22 @@
+{
+  "name": "CJGNavigationController",
+  "version": "0.1.0",
+  "summary": "A short description of CJGNavigationController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenjg/CJGNavigationController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenjg": "chenjg@tiens.com"
+  },
+  "source": {
+    "git": "https://github.com/chenjg/CJGNavigationController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CJGNavigationController/Classes/**/*"
+}
