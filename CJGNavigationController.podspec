@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.source_files = 'CJGNavigationController/Classes/**/*'
   # s.resource_bundles = {
-  #   'CJGNavigationConroller' => ['CJGNavigationController/Assets/*.png']
+  #   'CJGNavigationController' => ['CJGNavigationController/Assets/*.png']
   # }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
