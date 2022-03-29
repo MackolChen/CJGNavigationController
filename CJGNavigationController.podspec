@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGNavigationController'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = '自定义导航栏，可以修改颜色、透明度'
   s.description      = '自定义导航栏，可以在单个Controller修改颜色、透明度'
   s.homepage         = 'https://github.com/MackolChen/CJGNavigationController'
