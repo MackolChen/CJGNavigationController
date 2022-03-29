@@ -22,7 +22,7 @@ pod 'CJGNavigationController'
 
 ## Author
 
-chenjg, chenjg@tiens.com
+MackolChen, engineer_macchen@163.com
 
 ## License
 
