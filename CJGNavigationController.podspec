@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source_files = 'CJGNavigationController/Classes/**/*'
   b.resources    = 'CJGNavigationController/Assets/**/*'
   s.resource_bundles = {
-     'CJGNavigationController' => ['CJGNavigationController/Assets/*.png']
+     'CJGNavigationController' => ['CJGNavigationController/Assets/*']
   }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
