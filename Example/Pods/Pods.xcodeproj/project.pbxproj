@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		334FEE5E900875A5717E036C2C44CB11 /* CJGNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE0DE8D88F2C0A815F717B21AF487E0 /* CJGNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		510106AFC2860DAF38EF4AF74B441921 /* Pods-CJGNavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1084672C9C72ABB5F3B391A117EE1356 /* Pods-CJGNavigationController_Tests-dummy.m */; };
-		52EED5CC27F2FA6C00B36E43 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 52EED5C227F2FA6C00B36E43 /* .gitkeep */; };
+		5286FE0E29068C7300BFD14E /* CJGNavigationController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5286FE0D29068C7300BFD14E /* CJGNavigationController.bundle */; };
 		52EED5CD27F2FA6C00B36E43 /* CJGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EED5C427F2FA6C00B36E43 /* CJGNavigationController.m */; };
 		52EED5CE27F2FA6C00B36E43 /* CJGNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EED5C527F2FA6C00B36E43 /* CJGNavigationBar.h */; };
 		52EED5D027F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EED5C727F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.h */; };
@@ -52,7 +52,7 @@
 		353048AF3973B056792D406E9F32E8DA /* Pods-CJGNavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CJGNavigationController_Example.modulemap"; sourceTree = "<group>"; };
 		38E75899851D3B057EF847311E6EC5E1 /* Pods-CJGNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJGNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		44B0FA6D0A257BA50D9916127C7260DA /* Pods-CJGNavigationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJGNavigationController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		52EED5C227F2FA6C00B36E43 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		5286FE0D29068C7300BFD14E /* CJGNavigationController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CJGNavigationController.bundle; sourceTree = "<group>"; };
 		52EED5C427F2FA6C00B36E43 /* CJGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJGNavigationController.m; sourceTree = "<group>"; };
 		52EED5C527F2FA6C00B36E43 /* CJGNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJGNavigationBar.h; sourceTree = "<group>"; };
 		52EED5C727F2FA6C00B36E43 /* UIViewController+CJGNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CJGNavigationBar.h"; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		52EED5C127F2FA6C00B36E43 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				52EED5C227F2FA6C00B36E43 /* .gitkeep */,
+				5286FE0D29068C7300BFD14E /* CJGNavigationController.bundle */,
 			);
 			name = Assets;
 			path = CJGNavigationController/Assets;
@@ -386,7 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EED5CC27F2FA6C00B36E43 /* .gitkeep in Resources */,
+				5286FE0E29068C7300BFD14E /* CJGNavigationController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

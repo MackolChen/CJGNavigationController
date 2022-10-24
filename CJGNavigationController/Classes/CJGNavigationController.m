@@ -84,7 +84,14 @@
     if (self.childViewControllers.count>0) {
         viewController.hidesBottomBarWhenPushed = YES;
         UIButton *backBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
-        [backBtn setImage:[UIImage imageNamed:@"back_icon"] forState:UIControlStateNormal];
+        NSBundle *bundle = [NSBundle bundleForClass:[CJGNavigationController class]];
+        NSURL *url = [bundle URLForResource:@"CJGNavigationController" withExtension:@"bundle"];
+        bundle = [NSBundle bundleWithURL:url];
+        NSString *name = @"back_icon";
+        name = [name stringByAppendingString:@"@2x"];
+        NSString *imagePath = [bundle pathForResource:name ofType:@"png"];
+        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+        [backBtn setImage:image forState:UIControlStateNormal];
         [backBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         backBtn.imageEdgeInsets = UIEdgeInsetsMake(0, -15, 0, 0);
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backBtn];
