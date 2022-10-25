@@ -84,8 +84,8 @@
     if (self.childViewControllers.count>0) {
         viewController.hidesBottomBarWhenPushed = YES;
         UIButton *backBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
-        NSBundle *bundle = [NSBundle bundleForClass:[CJGNavigationController class]];
-        NSURL *url = [bundle URLForResource:@"CJGNavigationController" withExtension:@"bundle"];
+        NSBundle *bundle = [NSBundle mainBundle];
+        NSURL *url = [bundle URLForResource:@"CJGNavigationController-source" withExtension:@"bundle"];
         bundle = [NSBundle bundleWithURL:url];
         NSString *name = @"back_icon";
         name = [name stringByAppendingString:@"@2x"];

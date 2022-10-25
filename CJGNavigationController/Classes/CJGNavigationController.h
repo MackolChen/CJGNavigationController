@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIViewController+CJGNavigationBar.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @interface CJGNavigationController : UINavigationController
