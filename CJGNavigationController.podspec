@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJGNavigationController'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = '自定义导航栏，可以修改颜色、透明度'
   s.description      = '自定义导航栏，可以在单个Controller修改颜色、透明度'
   s.homepage         = 'https://github.com/MackolChen/CJGNavigationController'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.ios.deployment_target = '10.0'
   s.source_files = 'CJGNavigationController/Classes/**/*'
-  s.resources    = 'CJGNavigationController/Assets/*.{png,bundle}'
+  s.resources    = 'CJGNavigationController/Assets/CJGNavigationController-source.bundle'
 #  s.resource_bundles = {
 #     'CJGNavigationController-source' => ['CJGNavigationController/Assets/*']
 #  }
